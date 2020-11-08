@@ -144,7 +144,7 @@ footer nav a {
     text-decoration: none;
 }
 
-/* MY CSS STARTS HERE */
+/* MY INDEX CSS STARTS HERE */
 
 header {
     display: flex;
@@ -199,4 +199,45 @@ header nav a {
 }
 .box:nth-of-type(10) {
     background: dodgerblue;
+}
+
+
+/* MY ABOUT CSS STARTS HERE */
+
+.header-title {
+    padding: 0 3% 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.features {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.features article {
+    width: 45%;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.features h2 {
+    padding: 20px 0 0;
+}
+
+.features a {
+    display: flex;
+    justify-content: center;
+    width: 32%;
+    padding: 7px 0;
+    margin: 20px 0 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+}
+
+.footer-title {
+    padding: 0 3% 30px;
 }
