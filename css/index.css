@@ -205,14 +205,30 @@ header nav a {
 /* MY ABOUT CSS STARTS HERE */
 
 .header-title {
-    padding: 0 3% 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.header-title h2, .header-title p {
+    margin-top: 20px;
+    padding: 0 3%;
+}
+
+.header-title p {
+    margin-bottom: 20px;
+}
+
+.header-title img {
+    margin-top: 30px;
 }
 
 .features {
     display: flex;
     flex-flow: row wrap;
+}
+
+.features img {
+    width: 100%;
 }
 
 .features article {
