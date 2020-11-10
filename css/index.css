@@ -101,17 +101,49 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: black;
 }
 
+.middle-content .boxes .box:nth-of-type(1) {
+    background: teal;
+}
+.middle-content .boxes .box:nth-of-type(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-of-type(3) {
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-of-type(4) {
+    background: coral;
+}
+.middle-content .boxes .box:nth-of-type(5) {
+    background: crimson;
+}
+.middle-content .boxes .box:nth-of-type(6) {
+    background: forestgreen;
+}
+.middle-content .boxes .box:nth-of-type(7) {
+    background: darkorchid;
+}
+.middle-content .boxes .box:nth-of-type(8) {
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-of-type(9) {
+    background: indigo;
+}
+.middle-content .boxes .box:nth-of-type(10) {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +175,87 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* MY INDEX CSS STARTS HERE */
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+header img:nth-of-type(2) {
+    padding: 30px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+    width: 70%;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* MY ABOUT CSS STARTS HERE */
+
+.header-title {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.header-title h2, .header-title p {
+    margin-top: 20px;
+    padding: 0 3%;
+}
+
+.header-title p {
+    margin-bottom: 20px;
+}
+
+.header-title img {
+    margin-top: 30px;
+}
+
+.features {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.features img {
+    width: 100%;
+}
+
+.features article {
+    width: 45%;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.features h2 {
+    padding: 20px 0 0;
+}
+
+.features a {
+    display: flex;
+    justify-content: center;
+    width: 32%;
+    padding: 7px 0;
+    margin: 20px 0 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+}
+
+.footer-title {
+    padding: 0 3% 30px;
 }
